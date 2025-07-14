@@ -10,7 +10,6 @@ import com.biblioteca.repository.UsuarioRepository;
 import com.biblioteca.service.LibroService;
 import com.biblioteca.service.PrestamoService;
 import com.biblioteca.service.UsuarioService;
-import jdk.jshell.spi.ExecutionControl;
 
 public class Main {
     public static void main(String[] args) throws PrestamoException, LibroException, UsuarioException {

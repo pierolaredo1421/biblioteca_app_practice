@@ -44,10 +44,6 @@ public class Prestamo {
         return libros;
     }
 
-    public LocalDate getFechaPrestamo() {
-        return fechaPrestamo;
-    }
-
     public LocalDate getFechaDevolucion() {
         return fechaDevolucion;
     }
@@ -58,10 +54,6 @@ public class Prestamo {
 
     public String getFechaPrestamoFormateada() {
         return fechaPrestamo != null ? fechaPrestamo.toString() : "";
-    }
-
-    public String getFechaDevolucionFormateada() {
-        return fechaDevolucion != null ? fechaDevolucion.toString() : "";
     }
 
     @Override
